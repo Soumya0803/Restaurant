@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 
-function ContactForm() {
+function ContactForm2() {
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
 
@@ -32,4 +32,4 @@ function ContactForm() {
     </>
 
 }
-export default ContactForm;
+export default ContactForm2;

@@ -9,9 +9,9 @@ class Menu(models.Model):
     price=models.CharField(max_length=50)
     image = models.ImageField(upload_to='static', null=True)
     category=models.CharField(max_length=150,null=True)
-    inventory_id=models.ForeignKey(model=Product_inventory)
+    # inventory_id=models.ForeignKey(model=Product_inventory)
 class Product_inventory(models.Model):
-    inventory_id=models.IntegerField(model=Menu)
+    inventory_id=models.IntegerField()
 
     quantity=models.IntegerField()
     created=models.DateTimeField()

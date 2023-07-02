@@ -41,7 +41,7 @@ function App() {
      () => {} */}
     </div>
   
-    <ContactForm/>
+    {/* <ContactForm/> */}
     {/* <Testimonial/> */}
     <Footer />
     </>;
